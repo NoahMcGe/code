@@ -1,0 +1,17 @@
+---Use Windows Without Login---
+STEP1:(
+Plug in (SR:USB)
+boot to SR:USB
+open file explorer navigate to system32
+search for "sethc.exe" rename it to "sethc1.exe"
+search for "cmd.exe" copy and paste it
+rename your new pasted "cmd1.exe" to "sethc.exe")
+
+reboot to windows
+
+stay on login page
+spam shift untill cmd pops up
+type "explorer.exe"
+this will start the explorer process without the need of a login
+next you can click at the bottom right of the screen to get to the desktop
+---END---

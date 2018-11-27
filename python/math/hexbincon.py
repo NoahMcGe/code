@@ -1,16 +1,26 @@
-# binarystring.py noah m
-def print_menu():
-	print('1. Decimal to Binary')
-	print('2. Decimal to hex')
+# hexbincon.py noah m
 
-if __name__ == '__main__':
-	print_menu()
-	choice = input('which conversion would you like?: ')
-	if choice == '1':
-		bincon(decimal)
-		
-	if choice == '2':
-		cal(a)
+
+
+ans=True
+while ans:
+    print ("""
+    1.Dec to Binary
+    2.Dec to hex
+    3.Exit/Quit
+    """)
+    ans=raw_input("What would you like to do? ") 
+    if ans=="1": 
+	  bincon(decimal)
+    elif ans=="2":
+	  cal(a)
+    elif ans=="3":
+      print("\n Goodbye") 
+    elif ans !="":
+      print("\n Not Valid Choice Try again") 
+
+
+
 
 a=input("enter number in decimal :")
 def cal(a):
@@ -45,6 +55,8 @@ for i in reversed(L1):
 print c
 
 
+
+
 def bincon(decimal):
 	print("BINARY\n")
 	print (decimal)
@@ -64,4 +76,8 @@ def oof():
 		dec = input("INPUT AN INTEGER : ")
 		bincon(dec)
 oof()
+
+
+
+
 
